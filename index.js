@@ -85,7 +85,7 @@ function renderTable(outputs) {
 
   document.getElementById("predictions1").innerHTML = `
     <table>
-      <tr><th>Architecture</th><th>Prediction</th></tr>
+      <tr><th>Architecture</th><th>HbA1c</th></tr>
       ${rows}
     </table>
   `;
